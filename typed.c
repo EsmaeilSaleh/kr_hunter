@@ -37,3 +37,14 @@ int main(void)
 	}
 	return (0);
 }
+
+#include <unistd.h>
+#include <stdio.h>
+
+int	main(void)
+{
+	printf("Running ls using exec...\n");
+	execlp("ls", "ls", "-l", NULL);
+	perror("exec failed");
+	return (1);
+}
