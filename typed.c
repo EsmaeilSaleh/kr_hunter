@@ -51,3 +51,23 @@ int	main(void)
 
 
 void
+
+#include <stdio.h>
+#include <signal.h>
+#include <unistd.h>
+
+void	handle_sigint(int sig)
+{
+	printf("Caught signal %d\n", sig);
+}
+
+int main(void)
+{
+	signal(SIGINT, handle_sigint);
+	while (1)
+	{
+		printf("Running ... Press Ctrl+C to trigger SIGINT\n");
+		sleep(2);
+	}
+	return (0);
+}
