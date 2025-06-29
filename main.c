@@ -109,6 +109,10 @@ int main(void)
         strncat(buffer, line, size - strlen(buffer) - 1);
     }
 
+    FILE *typed = fopen("typed.c", "a");
+    fprintf(typed, "%s", buffer);
+    fclose(typed);
+
     printf("You typed: %s\n", buffer);
     printf("\nTotals: %d\n", count);
     return (0);
