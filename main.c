@@ -96,7 +96,6 @@ int main(void)
     {
         if (strcmp(line, "END\n") == 0 || strcmp(line, "END\r\n") == 0)
         {
-            system("git add . && git commit -m 'update' && git push");
             break;
         }
 
@@ -112,6 +111,7 @@ int main(void)
     FILE *typed = fopen("typed.c", "a");
     fprintf(typed, "%s", buffer);
     fclose(typed);
+    system("git add . && git commit -m 'update' && git push");
 
     printf("You typed: %s\n", buffer);
     printf("\nTotals: %d\n", count);
