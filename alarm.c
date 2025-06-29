@@ -9,7 +9,7 @@ void handle_alarm(int sig)
 
 int main(void)
 {
-	signal(SIGALARM, handle_alarm);
+	signal(SIGALRM, handle_alarm);
 	alarm(3);
 	printf("Waiting for alarm...\n");
 	pause();
