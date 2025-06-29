@@ -85,7 +85,7 @@ int main(void)
 
     printf("Name: %s\n", selected_funcs[func].name);
     printf("Description: %s\n", selected_funcs[func].description);
-    printf("\nFunction:\n%s\n", selected_funcs[func].code);
+    printf("Function:\n\n%s\n", selected_funcs[func].code);
 
     char buffer[1024] = {0};
     char line[1024];
