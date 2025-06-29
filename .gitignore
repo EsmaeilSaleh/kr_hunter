@@ -15,5 +15,3 @@ kr_hunter
 # Logs and crash dumps
 *.log
 core
-
-typed.c
