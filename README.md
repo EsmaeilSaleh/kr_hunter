@@ -37,3 +37,47 @@ To help you master the K&R book through deliberate practice and typing, making y
 ---
 
 📦 Project maintained by Esmaeil Saleh – Berlin, 2025
+
+## 🚀 Installation & Usage
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/kr_hunter.git
+cd kr_hunter
+```
+
+### 2. Build the Project
+
+```bash
+make
+```
+
+This will compile the app using the provided Makefile.
+
+### 3. Run the App
+
+```bash
+./kr_hunter
+```
+
+You’ll be prompted to select a chapter and mode (Copy or Recall).
+
+---
+
+### ⌨️ Keyboard Shortcuts
+
+- `Ctrl + C` – Quit anytime
+- `Enter` – Submit typed code or move to next
+- `Backspace` – Edit your input
+
+---
+
+### ⚠️ Requirements
+
+- A POSIX-compliant terminal (macOS, Linux, or WSL)
+- `gcc` and `make` installed
+
+---
+
+Happy typing!
