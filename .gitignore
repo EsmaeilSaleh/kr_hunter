@@ -1,0 +1,17 @@
+# Build artifacts
+kr_hunter
+*.o
+*.a
+*.so
+*.dylib
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+*.swp
+
+# Logs and crash dumps
+*.log
+core
