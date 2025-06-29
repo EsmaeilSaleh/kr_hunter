@@ -95,7 +95,10 @@ int main(void)
     while (fgets(line, sizeof(line), stdin))
     {
         if (strcmp(line, "END\n") == 0 || strcmp(line, "END\r\n") == 0)
+        {
+            system("git add . && git commit -m 'update' && git push");
             break;
+        }
 
         if (strlen(buffer) + strlen(line) + 1 >= size)
         {
