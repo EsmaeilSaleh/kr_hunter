@@ -92,3 +92,8 @@ int main(void)
 
 
 Hello
+int	main(void)
+P
+	printf("Hello, world\n");
+	return 0;
+}

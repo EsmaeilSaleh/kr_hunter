@@ -1,5 +1,6 @@
-#include "../core.h"
-const LibFunc chapter1[] = {
+#include "../../core.h"
+
+const LibFunc chapter1_functions[] = {
     {"hello_world",
      "Basic 'hello, world' example from K&R",
      "Prints 'hello, world' followed by a newline to standard output.",
@@ -395,5 +396,5 @@ const LibFunc chapter1[] = {
 
 int get_chapter1_functions_count(void)
 {
-    return sizeof(chapter1) / sizeof(LibFunc);
+    return sizeof(chapter1_functions) / sizeof(LibFunc);
 }
