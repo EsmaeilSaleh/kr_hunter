@@ -4,6 +4,7 @@ const LibFunc chapter8[] = {
     {"system_call_example",
      "Demonstrates calling system command.",
      "Uses system() to list directory contents.",
+     "Executes shell command using system().",
      NULL,
      0,
      "#include <stdlib.h>\n"
@@ -16,6 +17,7 @@ const LibFunc chapter8[] = {
     {"open_read_write_close",
      "Demonstrates low-level file operations.",
      "Uses open, read, write, and close system calls.",
+     "Demonstrates basic file operations with system calls.",
      NULL,
      0,
      "#include <fcntl.h>\n"
@@ -45,6 +47,7 @@ const LibFunc chapter8[] = {
     {"getpid_getppid",
      "Demonstrates getpid and getppid.",
      "Prints current and parent process IDs.",
+     "Displays process and parent process IDs.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -58,6 +61,7 @@ const LibFunc chapter8[] = {
      "}\n"},
     {"fork_and_wait",
      "Demonstrates fork and wait.",
+     "Creates a child process and waits for it to finish.",
      "Creates a child process and waits for it to finish.",
      NULL,
      0,
@@ -87,6 +91,7 @@ const LibFunc chapter8[] = {
     {"exec_example",
      "Demonstrates exec to run external program.",
      "Uses execlp to replace process image with 'ls'.",
+     "Replaces current process image with external command using exec.",
      NULL,
      0,
      "#include <unistd.h>\n"
@@ -102,6 +107,7 @@ const LibFunc chapter8[] = {
     {"signal_example",
      "Demonstrates signal handling.",
      "Sets a signal handler for SIGINT (Ctrl+C).",
+     "Handles signals like SIGINT using signal().",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -126,6 +132,7 @@ const LibFunc chapter8[] = {
     {"alarm_pause_example",
      "Demonstrates alarm and pause.",
      "Schedules an alarm and waits using pause.",
+     "Schedules an alarm and pauses until signal is caught.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -148,6 +155,7 @@ const LibFunc chapter8[] = {
     {"kill_example",
      "Demonstrates sending signals with kill.",
      "Sends SIGTERM to a child process.",
+     "Sends a termination signal to a child process.",
      NULL,
      0,
      "#include <stdio.h>\n"

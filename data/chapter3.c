@@ -4,6 +4,7 @@ const LibFunc chapter3[] = {
     {"if_else_example",
      "Basic if-else condition check.",
      "Compares two integers and prints the greater one.",
+     "Explains basic decision-making using if-else.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -20,6 +21,7 @@ const LibFunc chapter3[] = {
     {"switch_example",
      "Demonstrate switch statement.",
      "Prints a message based on the value of a character.",
+     "Demonstrates multi-branch control with switch-case.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -46,6 +48,7 @@ const LibFunc chapter3[] = {
     {"while_loop_example",
      "Demonstrate a basic while loop.",
      "Prints numbers from 1 to 5 using while.",
+     "Introduces while loops for repeated execution.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -63,6 +66,7 @@ const LibFunc chapter3[] = {
     {"do_while_loop_example",
      "Demonstrate a do-while loop.",
      "Executes the loop body at least once.",
+     "Shows how do-while guarantees at least one iteration.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -80,6 +84,7 @@ const LibFunc chapter3[] = {
     {"for_loop_rewritten_as_while",
      "Simulate a for loop using a while loop.",
      "Prints numbers from 0 to 4 using a while loop instead of for.",
+     "Illustrates how for loops translate to while loops.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -97,6 +102,7 @@ const LibFunc chapter3[] = {
     {"break_and_continue",
      "Demonstrate use of break and continue in loops.",
      "Skips 3 and breaks at 5 using continue and break.",
+     "Teaches how to control loop execution using break/continue.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -118,6 +124,7 @@ const LibFunc chapter3[] = {
     {"nested_if_while",
      "Demonstrate nested if inside while loop.",
      "Prints only even numbers between 1 and 10.",
+     "Combines if inside while for conditional repetition.",
      NULL,
      0,
      "#include <stdio.h>\n"

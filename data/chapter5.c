@@ -4,6 +4,7 @@ const LibFunc chapter5[] = {
     {"pointer_basics",
      "Demonstrate basic pointer usage.",
      "Shows how to declare a pointer and access variable via pointer.",
+     "Introduces pointer declaration and dereferencing.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -21,6 +22,7 @@ const LibFunc chapter5[] = {
     {"pointer_arithmetic",
      "Demonstrate basic pointer arithmetic.",
      "Shows how pointer increments traverse an array.",
+     "Traverses an array using pointer arithmetic.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -40,6 +42,7 @@ const LibFunc chapter5[] = {
     {"array_as_pointer",
      "Demonstrate array and pointer equivalence.",
      "Shows how arrays and pointers behave similarly when accessing elements.",
+     "Highlights similarities between arrays and pointers.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -57,6 +60,7 @@ const LibFunc chapter5[] = {
     {"string_pointer_example",
      "Demonstrate pointer to a string literal.",
      "Shows how to use char pointers to access string data.",
+     "Demonstrates char pointer usage with string literals.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -73,6 +77,7 @@ const LibFunc chapter5[] = {
     {"pointer_to_pointer",
      "Demonstrate pointer to a pointer.",
      "Access and modify value using a pointer to a pointer.",
+     "Accesses and modifies values with double pointers.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -92,6 +97,7 @@ const LibFunc chapter5[] = {
     {"array_of_strings",
      "Demonstrate array of string pointers.",
      "Prints a list of names using a char* array.",
+     "Prints string list using pointer array.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -110,6 +116,7 @@ const LibFunc chapter5[] = {
     {"pass_pointer_to_function",
      "Pass pointer to a function and modify value.",
      "Shows how a function can update a value using pointer.",
+     "Updates value through function using pointer.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -129,6 +136,7 @@ const LibFunc chapter5[] = {
     {"malloc_example",
      "Demonstrate dynamic memory allocation using malloc.",
      "Allocates memory for an array and fills it with values.",
+     "Allocates memory dynamically using malloc.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -155,6 +163,7 @@ const LibFunc chapter5[] = {
     {"const_pointer_examples",
      "Demonstrate const pointers in different configurations.",
      "Shows difference between const data, const pointer, and both.",
+     "Explores const with data, pointer, and both.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -179,6 +188,7 @@ const LibFunc chapter5[] = {
     {"function_returning_pointer",
      "Function returns pointer to maximum element.",
      "Demonstrates returning a pointer to an array element.",
+     "Returns pointer to max array element.",
      NULL,
      0,
      "#include <stdio.h>\n"

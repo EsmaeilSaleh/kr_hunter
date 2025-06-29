@@ -6,6 +6,7 @@ const LibFunc chapter2[] = {
         "int_division_vs_cast",
         "Demonstrate integer division vs floating-point division.",
         "Shows how type affects result of arithmetic expressions.",
+        "Shows how type casting changes calculation results.",
         (const char *[]){NULL},
         0,
         "#include <stdio.h>\n"
@@ -21,6 +22,7 @@ const LibFunc chapter2[] = {
     {"postfix_vs_prefix",
      "Compare postfix and prefix increment operators.",
      "Illustrates difference between i++ and ++i.",
+     "Explains how postfix and prefix increments behave differently.",
      (const char *[]){NULL},
      0,
      "#include <stdio.h>\n"
@@ -39,6 +41,7 @@ const LibFunc chapter2[] = {
     {"bitwise_operators",
      "Demonstrate basic bitwise operations.",
      "Uses &, |, ^, <<, and >> operators.",
+     "Demonstrates how C handles low-level bit manipulation.",
      (const char *[]){NULL},
      0,
      "#include <stdio.h>\n"
@@ -57,6 +60,7 @@ const LibFunc chapter2[] = {
     {"conditional_operator",
      "Use conditional (ternary) operator.",
      "Returns the greater of two values using ?: operator.",
+     "Uses the ternary operator to replace if-else for simple conditions.",
      (const char *[]){NULL},
      0,
      "#include <stdio.h>\n"
@@ -71,6 +75,7 @@ const LibFunc chapter2[] = {
     {"sizeof_operator",
      "Show sizes of different data types using sizeof.",
      "Prints size in bytes for int, char, float, double.",
+     "Shows how to determine memory usage of data types.",
      (const char *[]){NULL},
      0,
      "#include <stdio.h>\n"
@@ -86,6 +91,7 @@ const LibFunc chapter2[] = {
     {"operator_precedence",
      "Demonstrate operator precedence and parentheses usage.",
      "Evaluates expressions with and without parentheses.",
+     "Highlights the importance of parentheses in complex expressions.",
      (const char *[]){NULL},
      0,
      "#include <stdio.h>\n"
@@ -102,6 +108,7 @@ const LibFunc chapter2[] = {
     {"type_conversion_expression",
      "Demonstrate type promotion and conversion in expressions.",
      "Illustrates how mixed types affect arithmetic operations.",
+     "Reveals how types mix and promote during operations.",
      (const char *[]){NULL},
      0,
      "#include <stdio.h>\n"

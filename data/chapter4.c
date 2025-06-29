@@ -4,6 +4,7 @@ const LibFunc chapter4[] = {
     {"power_function",
      "A simple power function using a loop.",
      "Computes x raised to the power n (x^n).",
+     "Simple loop-based power function to demonstrate iteration and return.",
      NULL,
      0,
      "int power(int base, int n)\n"
@@ -19,6 +20,7 @@ const LibFunc chapter4[] = {
     {"external_variable",
      "Demonstrate use of an external variable.",
      "Shows how a global variable can be modified in a function.",
+     "Illustrates external (global) variable usage.",
      NULL,
      0,
      "int count = 0;\n"
@@ -30,6 +32,7 @@ const LibFunc chapter4[] = {
     {"function_declaration_order",
      "Declare function before use or provide prototype.",
      "Illustrates function call before its full definition.",
+     "Emphasizes the importance of declaring functions before use.",
      NULL,
      0,
      "int square(int);\n"
@@ -48,6 +51,7 @@ const LibFunc chapter4[] = {
     {"modular_file_structure",
      "Illustrate splitting function declarations and definitions.",
      "Simulates a function defined in one file and declared in another.",
+     "Demonstrates modular programming with separate headers and sources.",
      NULL,
      0,
      "// math_utils.h\n"
@@ -72,6 +76,7 @@ const LibFunc chapter4[] = {
     {"static_function_example",
      "Demonstrate use of static for internal linkage.",
      "A static helper function that is not visible outside the file.",
+     "Shows use of static for file-local functions.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -90,6 +95,7 @@ const LibFunc chapter4[] = {
     {"header_guard_example",
      "Demonstrate usage of header guards.",
      "Prevents double inclusion of header file contents.",
+     "Introduces header guards to prevent double inclusion.",
      NULL,
      0,
      "// math_utils.h\n"
@@ -102,6 +108,7 @@ const LibFunc chapter4[] = {
     {"extern_variable_across_files",
      "Demonstrate extern usage across multiple files.",
      "Declares a variable in one file and accesses it from another using extern.",
+     "Demonstrates sharing global variables across files using extern.",
      NULL,
      0,
      "// file1.c\n"
@@ -120,6 +127,7 @@ const LibFunc chapter4[] = {
     {"argc_argv_example",
      "Demonstrate command-line arguments in C.",
      "Prints out each argument passed to the program.",
+     "Covers reading command-line arguments from main().",
      NULL,
      0,
      "#include <stdio.h>\n"

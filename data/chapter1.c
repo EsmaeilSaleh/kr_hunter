@@ -3,6 +3,7 @@ const LibFunc chapter1[] = {
     {"hello_world",
      "Basic 'hello, world' example from K&R",
      "Prints 'hello, world' followed by a newline to standard output.",
+     "Basic 'hello, world' example from K&R",
      NULL,
      0,
      "int main(void)\n"
@@ -14,6 +15,7 @@ const LibFunc chapter1[] = {
     {"fahrenheit_table",
      "Print Fahrenheit to Celsius conversion table.",
      "Prints a table of Fahrenheit values with their Celsius equivalents.",
+     "Print Fahrenheit to Celsius conversion table.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -30,6 +32,7 @@ const LibFunc chapter1[] = {
     {"char_count",
      "Count number of characters from standard input.",
      "Reads characters until EOF and counts them, then prints the total.",
+     "Count number of characters from standard input.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -48,6 +51,7 @@ const LibFunc chapter1[] = {
     {"line_count",
      "Count number of lines from standard input.",
      "Reads characters and increments line count on each newline character.",
+     "Count number of lines from standard input.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -67,6 +71,7 @@ const LibFunc chapter1[] = {
     {"word_count",
      "Count words, lines, and characters using state transitions.",
      "Tracks state between words and prints totals at the end.",
+     "Count words, lines, and characters using state transitions.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -98,6 +103,7 @@ const LibFunc chapter1[] = {
     {"copy_input",
      "Copy input to output using getchar and putchar.",
      "Demonstrates a basic I/O loop copying characters from stdin to stdout.",
+     "Copy input to output using getchar and putchar.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -114,6 +120,7 @@ const LibFunc chapter1[] = {
     {"visible_characters",
      "Replace tabs, backspaces, and backslashes with visible escape sequences.",
      "Makes non-printable characters visible in output.",
+     "Replace tabs, backspaces, and backslashes with visible escape sequences.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -138,6 +145,7 @@ const LibFunc chapter1[] = {
     {"longest_line",
      "Print the longest line from input.",
      "Stores and compares input lines to track the longest one.",
+     "Print the longest line from input.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -188,6 +196,7 @@ const LibFunc chapter1[] = {
     {"symbolic_constants",
      "Use symbolic constants instead of hardcoded values.",
      "Defines constants for upper, lower, and step to improve readability.",
+     "Use symbolic constants instead of hardcoded values.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -208,6 +217,7 @@ const LibFunc chapter1[] = {
     {"word_per_line",
      "Print each word from input on a new line.",
      "Replaces whitespace with newlines to separate words.",
+     "Print each word from input on a new line.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -228,6 +238,7 @@ const LibFunc chapter1[] = {
     {"remove_blank_lines",
      "Remove extra blank lines from input.",
      "Skips over consecutive newline characters.",
+     "Remove extra blank lines from input.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -248,6 +259,7 @@ const LibFunc chapter1[] = {
     {"multi_space_to_one",
      "Replace multiple spaces with a single space.",
      "Collapses consecutive spaces into one when printing input.",
+     "Replace multiple spaces with a single space.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -272,6 +284,7 @@ const LibFunc chapter1[] = {
     {"limit_input_length",
      "Stop reading lines longer than a specified length.",
      "Reads lines up to a max length and ignores the rest of the line.",
+     "Stop reading lines longer than a specified length.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -296,6 +309,7 @@ const LibFunc chapter1[] = {
     {"horizontal_histogram",
      "Print horizontal histogram of word lengths.",
      "Counts lengths of words and prints a horizontal bar for each.",
+     "Print horizontal histogram of word lengths.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -334,6 +348,7 @@ const LibFunc chapter1[] = {
     {"vertical_histogram",
      "Print vertical histogram of word lengths.",
      "Draws vertical bars showing word length frequencies.",
+     "Print vertical histogram of word lengths.",
      NULL,
      0,
      "#include <stdio.h>\n"

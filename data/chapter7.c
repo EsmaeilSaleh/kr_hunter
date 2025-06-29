@@ -4,6 +4,7 @@ const LibFunc chapter7[] = {
     {"getchar_putchar",
      "Demonstrates getchar and putchar.",
      "Reads characters from input and echoes them.",
+     "Echoes characters using getchar and putchar until EOF.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -18,6 +19,7 @@ const LibFunc chapter7[] = {
     {"getc_putc_example",
      "Demonstrates getc and putc with FILE.",
      "Reads characters from stdin using getc and writes them using putc.",
+     "Similar to getchar/putchar but uses FILE streams explicitly.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -32,6 +34,7 @@ const LibFunc chapter7[] = {
     {"fopen_fclose_example",
      "Demonstrates fopen and fclose.",
      "Opens a file, writes to it, then closes it.",
+     "Opens, writes to, and closes a file using basic FILE APIs.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -51,6 +54,7 @@ const LibFunc chapter7[] = {
     {"fprintf_fscanf_example",
      "Uses fprintf and fscanf to write and read formatted data.",
      "Demonstrates writing and reading formatted text from a file.",
+     "Performs formatted file I/O with fprintf and fscanf.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -82,6 +86,7 @@ const LibFunc chapter7[] = {
     {"perror_example",
      "Demonstrates perror usage.",
      "Uses perror to show descriptive error messages on failure.",
+     "Demonstrates error reporting using perror().",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -98,6 +103,7 @@ const LibFunc chapter7[] = {
     {"fgets_fputs_example",
      "Demonstrates fgets and fputs.",
      "Reads lines using fgets and writes them with fputs.",
+     "Reads and writes text line-by-line using fgets/fputs.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -112,6 +118,7 @@ const LibFunc chapter7[] = {
     {"fread_fwrite_example",
      "Binary file I/O using fread and fwrite.",
      "Writes and reads an array of integers to a binary file.",
+     "Handles binary file operations with fread and fwrite.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -150,6 +157,7 @@ const LibFunc chapter7[] = {
     {"ungetc_example",
      "Use of ungetc to push character back to input.",
      "Pushes back the first character if it's a digit.",
+     "Pushes back a character to input stream if it's a digit.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -174,6 +182,7 @@ const LibFunc chapter7[] = {
     {"feof_ferror_example",
      "Check for EOF and file error using feof and ferror.",
      "Reads from file and checks for EOF and error conditions.",
+     "Checks for end-of-file and read errors with feof/ferror.",
      NULL,
      0,
      "#include <stdio.h>\n"

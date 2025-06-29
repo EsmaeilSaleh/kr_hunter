@@ -16,6 +16,7 @@ typedef struct s_libfunc
     const char *name;
     const char *description;
     const char *return_description;
+    const char *summary;
     const char **variants;
     int variant_count;
     const char *code;

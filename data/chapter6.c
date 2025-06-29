@@ -1,11 +1,10 @@
-
-
 #include "../core.h"
 
 const LibFunc chapter6[] = {
     {"struct_definition",
      "Define and use a simple struct.",
      "Demonstrates declaring a struct and accessing its members.",
+     "Defines a struct and accesses its members.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -26,6 +25,7 @@ const LibFunc chapter6[] = {
     {"pointer_to_struct",
      "Use pointer to access struct members.",
      "Demonstrates use of -> operator with a struct pointer.",
+     "Uses pointer and -> operator to access struct members.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -45,6 +45,7 @@ const LibFunc chapter6[] = {
     {"typedef_struct",
      "Use typedef to simplify struct declarations.",
      "Defines a typedef for a struct and uses it.",
+     "Simplifies struct usage with typedef.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -63,6 +64,7 @@ const LibFunc chapter6[] = {
     {"struct_array",
      "Array of structs.",
      "Demonstrates using an array of struct values.",
+     "Uses an array of structs for grouped data.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -86,6 +88,7 @@ const LibFunc chapter6[] = {
     {"struct_function_argument",
      "Passing struct to function by value.",
      "Shows how structs can be passed as function arguments.",
+     "Passes struct to function by value.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -109,6 +112,7 @@ const LibFunc chapter6[] = {
     {"return_struct_from_function",
      "Function returns a struct.",
      "Illustrates returning a struct value from a function.",
+     "Returns a struct from a function call.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -135,6 +139,7 @@ const LibFunc chapter6[] = {
     {"nested_struct",
      "Struct containing another struct.",
      "Illustrates composition of structs using nested members.",
+     "Contains a struct inside another struct.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -159,6 +164,7 @@ const LibFunc chapter6[] = {
     {"pass_struct_by_pointer",
      "Passing struct to function by pointer.",
      "Shows how to update struct members using a pointer.",
+     "Modifies struct via pointer in a function.",
      NULL,
      0,
      "#include <stdio.h>\n"
@@ -184,6 +190,7 @@ const LibFunc chapter6[] = {
     {"struct_compound_literal",
      "Initialize struct using compound literal.",
      "Demonstrates inline struct initialization.",
+     "Initializes struct using compound literal syntax.",
      NULL,
      0,
      "#include <stdio.h>\n"
